@@ -1,11 +1,16 @@
 .loader-container {
-  position: absolute;
+  /* position: absolute;
   top: 24px;
-  left: 50px;
+  left: 50px; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
 }
 .loader.is-hidden {
   display: none;
 }
+
 .loader {
   animation: rotate 1s infinite;
   height: 50px;
